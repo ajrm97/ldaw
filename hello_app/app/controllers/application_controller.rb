@@ -9,4 +9,8 @@ class ApplicationController < ActionController::Base
     render html: "goodbye, world!"
   end
   
+  def vista
+    render html: "¡Hasta la vista, baby!"
+  end
+  
 end
